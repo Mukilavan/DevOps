@@ -1,0 +1,20 @@
+Maven - build tool that hepls in project management.
+
+Build tool 
+Generating src code.
+POM - Project Object Model - xml file - plug ins for maven.
+
+Java based project to manage this java based files...
+
+Getting the crt jar files is difficult.
+------
+Maven is build automation tool for Java projects.
+pom.xml - project home
+Directory name	Purpose
+project home	-Contains the pom.xml and all subdirectories.
+src/main/java	-Contains the deliverable Java sourcecode for the project.
+src/main/resources	-Contains the deliverable resources for the project, such as property files.
+src/test/java	-Contains the testing Java sourcecode (JUnit or TestNG test cases, for example) for the project.
+src/test/resources	-Contains resources necessary for testing.
+
+mvn package - compile all the java file, run tests, and package the deliverable code and resources.
